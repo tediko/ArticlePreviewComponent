@@ -18,17 +18,18 @@
     display: flex;
     flex-flow: column;
     padding: 30px 40px;
-    justify-content: space-between;
 }
 
 .article-card__heading {
     color: var(--clr-blue-grayish-vdark);
     font-size: 1.5rem;
     letter-spacing: 0.35px;
+    margin-bottom: 16px;
 }
 
 .article-card__text {
     color: var(--clr-blue-dark);
+    margin-bottom: 24px;
 }
 
 .article-card__info {
