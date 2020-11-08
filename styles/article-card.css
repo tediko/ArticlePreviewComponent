@@ -80,12 +80,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--clr-blue-light) url('../assets/img/icon-share.svg');
-    background-repeat: no-repeat;
-    background-position: center;
     width: 32px;
     height: 32px;
     border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: var(--clr-blue-light);
+    transition: background 250ms ease-in;
+}
+
+.article-card__cta:hover {
+    background: var(--clr-blue-dark);
+}
+
+.article-card__cta:hover path {
+    fill: var(--clr-blue-light);
 }
 
 /* Article-card media queries */
