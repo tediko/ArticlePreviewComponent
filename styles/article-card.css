@@ -103,7 +103,7 @@
 
 .article-card__options {
     position: absolute;
-    display: flex;
+    display: none;
     align-items: center;
     top: -250%;
     left: -108px;
@@ -112,6 +112,12 @@
     width: 248px;
     padding: 15px 40px;
     border-radius: 10px;
+    transform: scale(0);
+}
+
+.article-card__options.active {
+    display: flex;
+    animation: optionsSlide-desktop 1000ms forwards;
 }
 
 .article-card__options::before {
