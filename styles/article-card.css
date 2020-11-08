@@ -1,4 +1,8 @@
 /* Article-card section */
+.article-card {
+    padding: 1.9rem;
+}
+
 .article-card__wrapper {
     display: flex;
 }
