@@ -6,9 +6,11 @@ const showOverlay = () => {
     if (shareOverlay.classList.contains('active')) {
         shareOverlay.classList.remove('active');
         shareOverlay.classList.add('close');
+        shareButton.classList.remove('active');
     } else {
         shareOverlay.classList.remove('close');
         shareOverlay.classList.add('active');
+        shareButton.classList.add('active');
     }
 }
 
