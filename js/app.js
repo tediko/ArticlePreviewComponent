@@ -17,6 +17,7 @@ const showOverlay = () => {
 const removeOverlay = () => {
     shareOverlay.classList.remove('active');
     shareOverlay.classList.add('close');
+    shareButton.classList.remove('active');
 }
 
 const removeButtonCta = () => {
