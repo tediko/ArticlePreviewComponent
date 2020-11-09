@@ -101,6 +101,23 @@
     fill: var(--clr-blue-light);
 }
 
+.article-card__cta.active {
+    background: var(--clr-blue-dark);
+}
+
+.article-card__cta.active path {
+    fill: var(--clr-blue-light);
+}
+
+.article-card__cta:hover.active {
+    background: var(--clr-blue-light);
+}
+
+.article-card__cta:hover.active path {
+    fill: var(--clr-blue-dark);
+}
+
+
 .article-card__options {
     position: absolute;
     display: none;
