@@ -120,6 +120,10 @@
     animation: optionsSlide-desktop 1000ms forwards;
 }
 
+.article-card__options.close {
+    animation: optionsHide-desktop 1000ms reverse;
+}
+
 .article-card__options::before {
     position: absolute;
     content: '';
