@@ -14,9 +14,15 @@ const showOverlay = () => {
     }
 }
 
+const removeOverlay = () => {
+    shareOverlay.classList.remove('active');
+    shareOverlay.classList.add('close');
+}
+
 const removeButtonCta = () => {
     shareButton.style.pointerEvents = 'auto';
 }
 
 shareButton.addEventListener('click', showOverlay);
+shareOverlay.addEventListener('click', removeOverlay);
 shareOverlay.addEventListener('animationend', removeButtonCta);
