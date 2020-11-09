@@ -1,0 +1,23 @@
+/* Footer section */
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--clr-blue-grayish-vdark);
+}
+
+.footer__attribution {
+    text-align: center;
+}
+
+.footer a {
+    color: var(--clr-blue-dark);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
