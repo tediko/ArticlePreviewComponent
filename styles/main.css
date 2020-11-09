@@ -53,3 +53,20 @@ body {
         opacity: 1;
     }
 }
+@keyframes optionsHide-desktop {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) scaleX(0); 
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translate(0) scaleX(0.01);
+    }
+
+    100% {
+        transform: translate(0) scaleX(1);
+        left: -108px;
+        opacity: 1;
+    }
+}
