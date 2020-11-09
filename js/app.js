@@ -23,6 +23,14 @@ const removeButtonCta = () => {
     shareButton.style.pointerEvents = 'auto';
 }
 
+const removeActiveOverlay = () => {
+    shareButton.style.pointerEvents = 'auto';
+    shareOverlay.classList.remove('close');
+    shareButton.classList.remove('active');
+    shareOverlay.classList.remove('active');
+}
+
 shareButton.addEventListener('click', showOverlay);
 shareOverlay.addEventListener('click', removeOverlay);
 shareOverlay.addEventListener('animationend', removeButtonCta);
+window.addEventListener('resize', removeActiveOverlay);
