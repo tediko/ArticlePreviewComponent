@@ -6,6 +6,7 @@
 .article-card__wrapper {
     display: flex;
     box-shadow: 6px 16px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
 }
 
 .article-card__image {
@@ -130,6 +131,7 @@
     padding: 15px 40px;
     border-radius: 10px;
     transform: scale(0);
+    box-shadow: 6px 16px 25px rgba(0, 0, 0, 0.08);
 }
 
 .article-card__options.active {
