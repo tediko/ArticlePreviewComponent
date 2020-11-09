@@ -5,6 +5,7 @@
 
 .article-card__wrapper {
     display: flex;
+    box-shadow: 6px 16px 25px rgba(0, 0, 0, 0.08);
 }
 
 .article-card__image {
